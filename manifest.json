@@ -1,0 +1,35 @@
+{
+  "name": "Contador de Billetes Bs",
+  "short_name": "Billetes Bs",
+  "description": "Cuenta billetes venezolanos y calcula el total en bolívares. Funciona sin internet.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "/contador-billetes-bs/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#667eea",
+  "theme_color": "#6a1b9a",
+  "lang": "es-VE",
+  "dir": "ltr",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
